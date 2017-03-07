@@ -14,6 +14,7 @@ class List //begin List definition
     int num_elements = 0;
     
   public:
+	
      ~List();//destructor
      void insert(int element, int k);//insert element at location k
      void remove(int k);//remove element at location k
@@ -22,7 +23,10 @@ class List //begin List definition
      
      /** MISSING OPERATIONS */
      //... fill in ....
-
+	
+	void display();
+	void clear();
+	int getAt(int k);
 };//end List definition
 
 #endif

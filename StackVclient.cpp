@@ -27,8 +27,9 @@ string reverseString(string str)
 int main()
 {         
     string a_string = "COMP2115 here we come!!!";
-     
+    cout<<endl;
     cout<<"\""<<a_string<<"\""<<endl<<"\""<<reverseString(a_string)<<"\"";
+	cout<<endl<<endl;
 	    
     return 0;
         
